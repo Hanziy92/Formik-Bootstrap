@@ -1,0 +1,23 @@
+.bg {
+   margin: 0 auto;
+   margin-top: 50px;
+   position: relative;
+   height: 780px;
+   width: 1168px;
+   background: #F4F6F8;
+   z-index: 1;
+   border: 1px solid #999999;
+   overflow: hidden;
+ }
+
+.bg .bg__img {
+   position: absolute;
+   width: 432px;
+   height: 1085px;
+   left: 785px;
+   top: -142px;
+   z-index: 2;
+   background: #EEF1F7;
+   transform: rotate(15deg);
+   vertical-align: middle;
+}

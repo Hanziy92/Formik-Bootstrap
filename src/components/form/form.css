@@ -1,0 +1,111 @@
+
+.bg .bg__form {
+  position: absolute;
+  width: 480px;
+  height: 552px;
+  left: 344px;
+  top: 114px;
+  background-color: #fff;
+  border-radius: 62px;  
+  z-index: 3;
+}
+ 
+h5 {
+  margin-top: 62px;
+  margin-bottom: 0px;
+  margin-left: 48px;
+}
+
+h1 {
+  width: 288px;
+  height: 28px;
+  margin-left: 48px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+ 
+form .oneInput {
+  margin-top: 52px;
+  margin-left: 48px;
+ 
+ }
+
+form .twoInput {
+  margin-top: 33px;
+  margin-left: 48px;
+}
+
+input {
+  width: 386px;
+  height: 47px;
+  border-radius: 25px;
+
+}
+
+i.fas {
+  line-height: 50px;
+  margin-right: -26px;
+  position: relative;
+  float: left;
+  right: -11px;
+  color: rgba(136, 131, 131, 0.849);
+}
+
+i.fas + input {
+  padding-left: 36px;
+}
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+input:focus:not(:placeholder-shown) {
+  border-color: blue;
+}
+
+.form-control {
+  width: 386px;
+  height: 47px;
+  border-radius: 25px;
+ 
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0.05rem rgb(0 123 255);
+}
+   
+button {
+  margin-top: 46px;
+  margin-left: 48px;
+  width: 386px;
+  height: 47px;
+  border-radius: 25px;  
+ }
+.text_btn {
+  color: #000;
+  background: linear-gradient(81deg, rgba(255,255,255,1) 0%, rgba(255,250,193,1) 28%, rgba(255,247,0,1) 73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+a {
+  color: #000;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color:#000;
+}
+p {
+  margin-top: 20px;
+  margin-left: 48px;
+  color: rgba(136, 131, 131, 0.849);
+}
+
+
